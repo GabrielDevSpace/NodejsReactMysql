@@ -10,11 +10,11 @@ const FormContainer = styled.form`
     background-color: #fff;
     padding: 20px;
     box-shadow: 0px 0px 5px #ccc;
-    border-radius: 5px;
+    border-radius: 5px;  
 `;
 
 const InputArea = styled.div`
-    display: flex.
+    display: flex;
     flex-direction: column;
 `;
 
@@ -30,7 +30,7 @@ const Button = styled.button`
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
-    background-color:#2c73d2
+    background-color:#2c73d2;
     color: white;
     height: 42px;
 `;
@@ -56,8 +56,8 @@ const Form = ({ onEdit }) => {
             <InputArea>
                 <Label>Nascimento</Label>
                 <Input name="nascimento" type="date"/>
-                <Button type="submit">SALVAR</Button>
             </InputArea>
+            <Button type="submit">SALVAR</Button>
         </FormContainer>
     );
 }
